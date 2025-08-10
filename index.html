@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone-Psper-Scissor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="heading">
+        <img src="game.avif" alt="">
+        <h1>ROCK PAPER SCISSOR</h1>
+    </div>
+<div class="choices" >
+    <div class="choice" id="rock">
+        <button ><img src="rock.png" alt=""></button>
+    </div>
+    <div class="choice" id="paper">
+        <button ><img src="paper.png"></button>
+    </div>
+    <div class="choice" id="scissor">
+        <button ><img src="cuter.png" alt=""></button>
+    </div>
+</div>
+
+<div class="score-board">
+    <div>
+    <p id="user">0</p>
+    <p id="uremove">YOU</p>
+    </div>
+    <p id="win-lose"></p>
+    <div>
+        <p id="comp">0</p>
+        <p id="compremove">COMPUTER</p>
+    </div>
+</div>
+
+<div class="message">
+    <button id="msg">Pick Your Move</button>
+</div>
+<div class="last">
+<div class="stop">
+    <button id="end">End Game</button>
+    <audio src="winaudio.mp3" id="winaud" preload="auto" ></audio>
+    <audio src="losingaudio.mp3" id="loseaud" preload="auto" ></audio>
+</div>
+<div class="reset">
+    <button id="restart">Restart Game</button>
+</div>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
